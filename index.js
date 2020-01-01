@@ -12,7 +12,6 @@ app.use(router.allowedMethods())
 router.get("/userlist",async (ctx,next)=>{
     let data = await query()
     ctx.body={
-        code:1,
         data
     }
 })

@@ -26,7 +26,6 @@ module.exports=()=> {
             }else{
                 reslove(data)
             }
-            //必须关闭连接
             connection.end()
         })
     })
